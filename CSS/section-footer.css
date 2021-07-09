@@ -1,0 +1,155 @@
+
+.footer{
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--black);
+  border: 1px solid none;
+  border-radius: 15px;
+  height: 340px;
+  margin-top: 22px;
+  margin-bottom: 50px;
+}
+
+.footer-block-one{
+  width: 350px;
+  height: 243px;
+  color: var(--white);
+  padding-top: 15px;
+  padding-left: 45px;
+}
+
+.footer-description{
+  padding-top: 20px;
+  line-height: 32px;
+}
+
+.footer-description-link{
+  line-height: 32px;
+  font-size: 16px;
+  padding-top: 46px;
+
+}
+
+
+.footer-description-link-style{
+  color: var(--orange);
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+
+.footer-description-link-style:hover{
+  color: var(--golden-orange);
+}
+
+
+
+
+.footer-block-two{
+  width: 522px;
+  padding-top: 44px;
+  background-image: url(../img/sun.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.footer-adrees-style{
+  color: var(--white);
+  font-weight: 400;
+  margin: 0;
+}
+
+.footer-number-block{
+  padding-top: 35px;
+  line-height: 24px;
+}
+
+.footer-number-style{
+  display: flex;
+  flex-direction: column;
+  color: #cc9933;
+  font-size: 16px;
+  position: relative;
+  will-change: opacity;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+.footer-number-style:hover{
+  transform: scale(1.1);
+  color: var(--golden-orange);
+}
+
+.footer-mail-block{
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  padding-top: 30px;
+
+}
+.section-footer-mail{
+  color: #cc9933;
+ transition: 0.5s ease-in-out
+}
+
+.section-footer-mail:hover{
+  color: var(--golden-orange);
+  transform: scale(1.1);
+}
+
+
+.footer-block-three{
+  margin-top: 46px;
+  margin-right: 53px;
+  display: block;
+  height: 224px;
+  width: 30px;
+  padding-bottom: 20px;
+}
+
+.icon{
+  display: inline-block;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.icon:hover{
+  transform: scale(1.1);
+  width: 50px;
+}
+
+.one{
+  background-image: url(../img/tripadvisor.svg);
+
+}
+
+.two{
+  background-image: url(../img/twitter.svg);
+
+}
+
+.three{
+  background-image: url(../img/facebook.svg);
+
+}
+
+.four{
+  background-image: url(../img/social.svg);
+}
+
+.five{
+  background-image: url(../img/google-plus-social-logotype.svg);
+
+}
+

@@ -1,0 +1,223 @@
+/*section contacts css */
+.flex{
+  display: flex;
+  }
+
+  .body-style{
+    background-color: var(--white);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 621px;
+}
+
+.section-contacts-adrees_item{
+  display: flex;
+  justify-content: space-between;
+  width: 427px;
+  height: 118px;
+  border-bottom: 1px solid var(--black);
+  padding-top: 46px;
+  margin-left: 44px;
+}
+
+.section-contacts{
+  padding-top: 62px;
+}
+
+.section-contacts-title{
+  margin: 68px 0px 32px 45px;
+  color: var(--black);
+  font-size: 40px;
+  font-weight: 400;
+}
+
+
+.section-contacts-item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--black);
+  padding-top: 26px;
+  margin-left: 44px;
+  width: 427px;
+  height: 100px;
+}
+
+.section-contacts-description{
+  margin: 0;
+  /* Style for "Адрес" */
+  height: 21px;
+  color: var(--light-gray);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+
+.section-contacts-text{
+  width: 230px;
+  line-height: 24px;
+  font-size: 17px;
+}
+
+.contacts-tel{
+  display: flex;
+  flex-direction: column;
+  padding-left: 85px;
+}
+
+.section-contcts-block{
+  padding-right: 62px;
+
+}
+.section-contacts-item-tel{
+width: 300px;
+line-height: 24px;
+font-size: 16px;
+color: var(--orange);
+transition-property: color;
+transition-duration: 0.5s;
+transition-timing-function: linear;
+}
+
+.section-contacts-item-tel:hover{
+  color: var(--golden-orange);
+}
+
+.section-contacts-text-style{
+  font-size: 16px;
+  color: var(--white-gray);
+}
+
+.section-contacts-write{
+  padding-top: 208px;
+
+}
+
+
+
+.section-contacts-mail{
+  padding-left: 85px;
+  width: 320px;
+  height: 91px;
+  line-height: 24px;
+}
+
+.section-contacts-mail-link:hover{
+  color: var(--golden-orange);
+}
+
+.email-item{
+  height: 144px;
+}
+.section-contacts-mail-link{
+  color: var(--orange);
+ transition: 0.5s  ease-in-out;
+}
+
+.section-contacts-description-btn{
+  display: block;
+  margin-top: 24px;
+  margin-left: 44px;
+  width: 214px;
+  height: 70px;
+  border: 1px solid var(--orange);
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.section-contacts-description-btn:hover{
+  transform: scale(1.1);
+}
+
+
+.contacts_description_text{
+  color: var(--orange);
+  font-size: 16px;
+  padding: 26px 29px 24px 26px;
+}
+
+
+/*section-contacts-write*/
+
+.section-contacts-write-question{
+  display: inline-block;
+  padding-top: 46px;
+  padding-bottom: 24px;
+  padding-right: 20px;
+  font-size: 40px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.section-contacts-list-block-two{
+width: 637px;
+height: 621px;
+background-color: var(--white);
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+.contacts-list-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 620px;
+}
+
+.section-contacts-write-to-name{
+  width: 300px;
+  height: 68px;
+  border: none;
+  padding-left: 20px;
+  background-color: var(--background);
+  border-radius: 12px;
+}
+
+.section-contacts-write-to-us{
+  margin-top: 28px;
+  width: 630px;
+  height: 214px;
+  padding-top: 15px;
+  padding-left: 20px;
+  background-color: var(--background);
+  border-radius: 12px;
+  border: none;
+  resize: none;
+}
+
+.contacts-warning{
+  color: var(--light-gray);
+  font-size: 16px;
+  padding-top: 26px;
+}
+
+.contacts-warnig-privacy{
+  color: var(--orange);
+  transition:  0.5s ease-in-out;
+  will-change: opacity;
+}
+.contacts-warnig-privacy:hover{
+  color: var(--golden-orange);
+}
+
+.section-contacts-write-to-btn{
+  width: 340px;
+  height: 71px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--orange);
+  margin-top: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.section-contacts-write-to-btn:hover{
+  transform: scale(1.1);
+
+  }
+
+.write_to_text{
+  color: var(--white);
+  font-weight: 400;
+}

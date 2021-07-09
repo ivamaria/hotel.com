@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 17" width="10" height="17">
+	<defs>
+		<image width="12" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAATBAMAAABW2/GaAAAAAXNSR0IB2cksfwAAACpQTFRFAAAAv48wy5kyyZcyy5kzypkzypgyy5kyypUwy5kzypgyypcyy5kyypkzsGhtgAAAAA50Uk5TABB/gP/P0OAw8J9g76BS3gn4AAAARklEQVR4nGNggABGRTDF7CoA5qUEgrliUG4JhNsJ4XJMWQDheoEpbpcNIKrHFyx35AKY4wZSyRiSCOKIInOY3SBGGjIgAAAVsAwHMVvuXgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Услуги">
+		<g id="44">
+			<use id="Прямоугольник 2 копия 13" href="#img1" x="-1" y="-1" />
+		</g>
+	</g>
+</svg>

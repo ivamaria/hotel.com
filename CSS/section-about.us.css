@@ -1,0 +1,18 @@
+/*section about us css*/
+.section-about-us-title{
+  display: block;
+  margin:70px 0px 24px 50px;
+  color: var(--black);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.section-about-us-paragraph{
+  margin-left: 50px;
+  width: 894px;
+  height: 180px;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--light-gray);
+}

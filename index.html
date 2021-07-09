@@ -1,379 +1,445 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preload" href="fonts/montserrat-regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/montserrat-bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/montserrat-extrabold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/montserrat-semibold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/montserrat-light.woff2" as="font" type="font/woff2" crossorigin>
-    <title>Евклид</title>
+    <link rel="preload" href="fonts/MullerBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/MullerLight.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/MullerMedium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+    <title>Lionic Legal Solution</title>
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/normolize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/about__us.css">
-    <link rel="stylesheet" href="css/how-we__work.css">
-    <link rel="stylesheet" href="css/have__questions.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="CSS/normolice.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/section-header.css">
+    <link rel="stylesheet" href="CSS/section-fastbooking.css">
+    <link rel="stylesheet" href="CSS/section-about.us.css">
+    <link rel="stylesheet" href="CSS/section-services.css">
+    <link rel="stylesheet" href="CSS/section-advantages.css">
+    <link rel="stylesheet" href="CSS/section-placing.css">
+    <link rel="stylesheet" href="CSS/section-contacts.css">
+    <link rel="stylesheet" href="CSS/section-footer.css">
 
-
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </head>
-
 <body>
 
-    <header class="header">
-        <div class="container header__container">
-            <div class="header__content">
+  <header>
+    <div class="container">
+      <div class="header-top">
+        <h1 class="visuallity-hidden">Lagoona-сеть отелей</h1>
+          <a class="header-logo">
+          <img src="img/logo.jpg" alt="Сеть отелей Лионик">
+        </a>
+          <a class="header-number number_style" href="tel:74953225448">+7 495 322 54 48</a>
+          <a class="header-pivate private_text" href="#">Личный кабинет</a>
+      </div>
 
-                <button class="header__burger" aria-label="Открыть меню">
-            <span></span>
-          </button>
-            </div>
-            <a class="header__logo" href="#">
-                <picture>
-                    <img src="img/logo-1.png" alt="Евклид-logotip">
-                    <source srcset="img/logo-2.png" type="image/png" media="min-width:1024px">
-                    <source srcset="img/logo-second.png" type="image/png" media="min-width:768px">
-                    <source srcset="img/logo4.png" type="image/png" media="min-width:768px">
-                    <source srcset="img/logo320.png" type="image/png" media="(min-width: 0px)">
-                </picture>
-            </a>
-            <nav class="header__menu">
-                <ul class="nav__list">
-                    <li class="nav__list-item">
-                        <a href="#" class="nav__list-link">О нас</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" class="nav__list-link">Проекты</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" class="nav__list-link">Этапы</a>
-                    </li>
-
-                    <li class="nav__list-item">
-                        <a href="#" class="nav__list-link">Отзывы</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" class="nav__list-link">Контакты</a>
-                    </li>
-                </ul>
-                <form class="header__form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-                    <button class="search__button search" aria-label="Поиск меню"></button>
-                </form>
-            </nav>
-
-        </div>
+    <div class="header-bottom">
+    <nav>
+          <ul class="nav-list">
+        <li class="nav-link">
+          <a href="#" class="nav-text">О нас</a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="nav-text">Услуги</a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="nav-text">Приеммущества</a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="nav-text">Размещение</a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="nav-text">Блок</a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="nav-text">Контакты</a>
+        </li>
+      </ul>
+      </nav>
+      <form class="search">
+        <input type="search" placeholder="Поиск">
+        <button class="search-button"></button>
+          </form>
+      </div>
+      </div>
     </header>
 
     <main>
-        <section class="hero">
+      <div class="container flex-row">
 
-            <div class="container hero__container">
-
-
-
-                <div class="hero__content">
-                    <h1 class="hero__title title-style">
-                        Проектные решения любой сложности
-                    </h1>
-                    <span class="hero__subtitle">
-          Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
-        </span>
-                    <button aria-label="Заказать расчёт" class="hero__btn btn-style">
-          Заказать расчёт
-        </button>
-                </div>
-
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide1"></div>
-                        <div class="swiper-slide slide2"></div>
-                        <div class="swiper-slide slide3"></div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-
-        <section class="abaut__us">
-            <div class="container container-abaut__us">
-                <h2 class="about__us-heading">
-                    О нас
-                </h2>
-                <p class="about__us-text text-style">
-                    Также как перспективное планирование создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса экспериментов, поражающих по&nbsp;своей масштабности и&nbsp;грандиозности. А&nbsp;также диаграммы
-                    связей могут быть описаны максимально подробно. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что убеждённость некоторых оппонентов требует от&nbsp;нас анализа как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений!
-                    Следует отметить, что высококачественный прототип <span class="about__us-i"></span> будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в&nbsp;отношении поставленных задач. Мы&nbsp;вынуждены
-                    отталкиваться от&nbsp;того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.
-                </p>
-            </div>
-
-
-
-
-
-            <div class="container about__flex">
-                <div class="left">
-                    <div class="left__block">
-                        <p class="about__left-text">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
-                        <div class="about__button-block">
-                            <a href="#" class="about__button">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="right">
-                    <div class="right__block">
-                        <div class="about__top">
-                            <p class="about__right-text"><b class="about__style">Консультация с широким активом</b> А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
-                        </div>
-                    </div>
-
-
-                    <div class="right__block">
-                        <div class="about__bottom">
-                            <p class="about__right-text"><b class="about__style">В своём стремлении повысить </b>Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="section-reservation">
+          <h2 class="section-reservation-title">Быстрая бронь</h2>
+          <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="section-reservation-form">
+            <input required type="text"  name="city" placeholder="Город" class="section-reservation-input" id="city">
+            <input  name="number-cotegory" type="text" placeholder="Категория номера" class="section-reservation-input" id="text">
+            <input  name="date" type="number" placeholder="Дата заселения" class="section-reservation-input" id="date">
+            <input name="night" type="number" placeholder="Количество ночей" class="section-reservation-input">
+            <input name="guest" type="number" placeholder="Количество гостей" class="section-reservation-input" id="number">
+            <div class="section-reservation-button"><button class="section-reservation-btn">Найти номер</button>
+            <p class="section-reservation-avilable reservation_avilable_style">9 756<span class="reservation-avilable-text">предложений доступно</span></p></div>
+          </form>
         </section>
 
 
-
-        <section class="how-we__work">
-            <div class="container container__work">
-
-                <h2 class="work__title">
-                    Как мы работаем
-                </h2>
-                <ul class="tabs__list">
-                    <li class="tabs__item"><button class="tabs__link_active btn-rest" type="button" data-path="one">1 шаг</button></li>
-                    <li class="tabs__item"><button class="tabs__link btn-rest" type="button" data-path="two">2 шаг</button></li>
-                    <li class="tabs__item"><button class="tabs__link btn-rest" type="button" data-path="three">3 шаг</button></li>
-                    <li class="tabs__item"><button class="tabs__link btn-rest" type="button" data-path="four">4 шаг</button></li>
-                </ul>
-
-                <div class="tabs__content tabs__content_active" data-target="one">
-                    <div class="tabs__info">
-                        <h3 class="we__work-title-3">
-                            Проводим консультацию
-                        </h3>
-                        <p class="we__work-consultation-text">Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
-                            А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
-                            современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные
-                            выводы, разумеется, призваны к ответу.</p>
-                        <div class="we__work-btn">
-                            <a href="#" class="we__work-btn3 btn-style3">Подробнее</a>
-                            <a href="#" class="we__work-btn4 btn-style4">Договор</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tabs__content tabs__content2" data-target="two">
-                    <div class="tabs__info">
-                        <h3 class="we__work-title-3">
-                            Составляем смету
-                        </h3>
-                        <p class="we__work-consultation-text">Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители
-                            современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
-                            подвергнуты целой серии независимых исследований.</p>
-                        <div class="we__work-btn">
-                            <a href="#" class="we__work-btn3 btn-style3">Подробнее</a>
-                            <a href="#" class="we__work-btn4 btn-style4">Договор</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tabs__content tabs__content3" data-target="three">
-                    <div class="tabs__info">
-                        <h3 class="we__work-title-3">
-                            Привлекаем подрядчиков
-                        </h3>
-                        <p class="we__work-consultation-text">Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
-                            простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях
-                            системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального сообщества
-                            .
-                        </p>
-                        <div class="we__work-btn">
-                            <a href="#" class="we__work-btn3 btn-style3">Подробнее</a>
-                            <a href="#" class="we__work-btn4 btn-style4">Договор</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tabs__content tabs__content4" data-target="four">
-                    <div class="tabs__info">
-                        <h3 class="we__work-title-3">
-                            Инспектируем все этапы работ
-                        </h3>
-                        <p class="we__work-consultation-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый
-                            опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности
-                            позволяетВысокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития.</p>
-                        <div class="we__work-btn">
-                            <a href="#" class="we__work-btn3 btn-style3">Подробнее</a>
-                            <a href="#" class="we__work-btn4 btn-style4">Договор</a>
-                        </div>
-                    </div>
-                </div>
+          <section class="reservation-special">
+            <h2 class="section-reservation-title">Спецпредложение</h2>
+            <div class="reservation-special-image">
+            <h3 class="reservation-special-title2">Номера категории люкс</h3>
+            <span class="reservation-special-lux-price">от 5000 р</span>
+            <a class="reservation-special-more-details" href="#">Подробнее</a>
             </div>
         </section>
+      </div>
 
 
-        <section class="have__questions">
-            <div class="container container-have__questions">
-                <h2 class="have__question-title">
-                    Часто задаваемые вопросы
-                </h2>
+      <section>
+        <div class="container">
+          <h2 class="section-about-us-title">О нас</h2>
+            <p class="section-about-us-paragraph">Идейные соображения высшего порядка,а также сложившаяся структура организации влечёт за собой процесс внедрения модернизации системы обучения кадров,соответствует насущным потребностям.Идейные соображения высшего порядка,а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системмы обучения кадров соответствует насущным потребностям.Равным образом сложившаяся структура организации требуют определения  и уточнения существенных и финансовых и административных условий.</p>
+        </div>
+      </section>
 
-                <ul class="acc-list">
+      <section>
+        <div class="container">
+          <h2 class="section-services-title">Услуги</h2>
 
-                    <li class="acc-item">
-                        <h3 class="acc-item__button">
-                            <span class="acc-item__title">Из чего формируется конечная стоимость проекта? </span>
-                            <span tabindex="0" class="acc-item__accord"></span>
-                        </h3>
-                        <p class="acc-item__text">Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный прототип будущего
-                            проекта является качественно новой ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены
-                            нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых
-                            факторов. Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны кответу. Явные признаки победы институционализации набирают популярность среди определенных слоевнаселения, а значит,
-                            должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимыевыводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь,должны быть представлены в исключительно
-                            положительном свете. </p>
-                    </li>
-                    <li class="acc-item">
-                        <h3 class="acc-item__button">
-                            <span class="acc-item__title">У меня есть свой проект. Сможем ли мы его доработать <span class="acc__dash">/</span> реализовать?</span>
-                            <span tabindex="2" class="acc-item__accord"></span>
-                        </h3>
-                        <p class="acc-item__text"> Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть
-                            объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном
-                            свете.
-                        </p>
+            <ul class="section-services-list ">
 
-                    </li>
+              <li class="section-services-list-item">
+              <div class="section-services-list-block services_list_block_one "><!--background image-->
+              <h3 class="section-services list-link">
+                <a href="#" class="section-services-text">Эксклюзивное обслуживание.</a>
+              </h3>
+              <p class="section-services-instruction">Равным образом постоянный количественный рост и сфера нашей активности</p>
+              </div>
+            </li>
 
+        <li class="section-services-list-item">
 
-                    <li class="acc-item">
-                        <h3 class="acc-item__button">
-                            <span class="acc-item__title">Я выбираю между разными компаниями. В чём ваше отличие?</span>
-                            <span tabindex="3" class="acc-item__accord"></span>
-                        </h3>
-                        <p class="acc-item__text"> Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть
-                            объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном
-                            свете.
-                        </p>
-                    </li>
+          <div class="section-services-list-block services_list_block_two"> <!--background image-->
+                <h3 class="section-services list-link"><a href="#" class="section-services-text">Аренда банкетных залов.</a></h3>
+                  <p class="section-services-instruction">Значимость этих проблем настолько очевидна,что дальнейшее развитие различных форм.</p>
+          </div>
+            </li>
 
-                    <li class="acc-item">
-                        <h3 class="acc-item__button">
-                            <span class="acc-item__title">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</span>
-                            <span tabindex="4" class="acc-item__accord"></span>
-                        </h3>
-                        <p class="acc-item__text"> Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть
-                            объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном
-                            свете. Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит,
-                            должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно
-                            положительном свете.
-                        </p>
-                    </li>
+              <li class="section-services-list-item">
+              <div class="section-services-list-block services_list_block_three"><!--background image-->
+              <h3 class="section-services list-link"><a href="#" class="section-services-text">Сауны,бассейныз,бани,фитнес-залы.</a></h3>
+              <p class="section-services-instruction">Не следует,однако забывать,что начало повседневной работы по  формированию позиции</p>
+              </div>
+              </li>
 
-                    <li class="acc-item">
-                        <h3 class="acc-item__button">
-                            <span class="acc-item__title">Могу ли я вернуть деньги на каком-либо из этапов работ?</span>
-                            <span tabindex="5" class="acc-item__accord"></span>
-                        </h3>
-                        <p class="acc-item__text"> Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть
-                            объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном
-                            свете.
-                        </p>
-                    </li>
+            <li class="section-services-list-item">
+              <article class="section-services-list-block services_list_block_four"><!--background image-->
+            <h3 class="section-services list-link"><a href="#" class="section-services-text">Охраняемые автомобильные стоянки</a></h3>
+            <p class="section-services-instruction">Не следует,однако забывать,что начало повседневной работы по формированию позиции</p>
+            </article>
+          </li>
+          </ul>
+        </div>
+      </section>
 
-                </ul>
+    <section>
+    <div class="container">
+      <h2 class="section-advantages-title">Приеимущества</h2>
+        <ul class="section-advantages-list">
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_one">
+            <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+          </div>
+        </li>
 
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_two">
+            <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+          </div>
+          </li>
+
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_three">
+            <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
             </div>
-        </section>
-    </main>
+          </li>
+
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_four">
+            <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+            </div>
+          </li>
+
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_five">
+            <p class="section-advantage-body-text">Таким образом реализация плановых заданий играет важную роль для понимания</p>
+            </div>
+          </li>
+
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_six">
+            <p class="section-advantage-body-text">Повседневная практика показывает, что сложившаяся структура организации</p>
+            </div>
+          </li>
+
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_seven">
+            <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+            </div>
+          </li>
+
+          <li class="section-advantages-list-item">
+            <div class="class-section-list-block list_block_eight">
+            <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+          </div>
+        </li>
+        <li class="section-advantages-list-item">
+          <div class="class-section-list-block list_block_seven">
+          <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+          </div>
+        </li>
+
+        <li class="section-advantages-list-item">
+          <div class="class-section-list-block list_block_eight">
+          <p class="section-advantage-body-text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+        </div>
+      </li>
+        </ul>
+      </div>
+</section>
+
+<section>
+    <div class="container">
+    <h2 class="section-placing-title">Размещение</h2>
+
+      <ul class="section-placing-list">
+        <li class="section-placing-list-item">
+        <article class="section-placing-list-block placing_list_block_one">
+          <p class="section-placing-price"> от <strong class="placing-info">4 698 р /</strong>ночь<span class="section-pacing-rating-item">
+          <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 4 из 5">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star-empty.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona española</h3>
+          <p class="section-placing-subtitle">Барселона, Испания</p>
+            <button class="section-placing-list-button placing_button_text">Номера</button>
+      </article>
+    </li>
+
+        <li class="section-placing-list-item">
+          <article class="section-placing-list-block placing_list_block_two">
+          <p class="section-placing-price">от <strong class="placing-info">5 148 р /</strong>ночь<span class="section-pacing-rating-item">
+          <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 4 из 5">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star-empty.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona son típicas</h3>
+        <p class="section-placing-subtitle">Барселона, Испания</p>
+        <button class="section-placing-list-button placing_button_text">Номера</button>
+        </article>
+        </li>
+
+        <li class="section-placing-list-item">
+        <article class="section-placing-list-block placing_list_block_three">
+          <p class="section-placing-price">от <strong class="placing-info">6 254 р /</strong>ночь<span class="section-pacing-rating-item">
+          <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 4 из 5">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star-empty.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona de la guerra</h3>
+        <p class="section-placing-subtitle">Барселона, Испания</p>
+        <button class="section-placing-list-button placing_button_text">Номера</button>
+      </article>
+      </li>
+
+        <li class="section-placing-list-item"><!--background.jpg-->
+        <article class="section-placing-list-block placing_list_block_four">
+          <p class="section-placing-price">от <strong class="placing-info"> 6 320 р /</strong>ночь<span class="section-pacing-rating-item">
+          <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 5 из 5">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona mentira piadosa</h3>
+        <p class="section-placing-subtitle">Барселона, Испания</p>
+        <button class="section-placing-list-button placing_button_text">Номера</button>
+        </article>
+      </li>
+
+        <li class="section-placing-list-item"><!--background.jpg-->
+        <article class="section-placing-list-block placing_list_block_five">
+          <p class="section-placing-price">от<strong class="placing-info">6 457 р /</strong>ночь<span class="section-pacing-rating-item">
+          <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 5 из 5">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona empujar la creatividad</h3>
+        <p class="section-placing-subtitle">Барселона, Испания</p>
+        <button class="section-placing-list-button placing_button_text">Номера</button>
+        </article>
+      </li>
+
+        <li class="section-placing-list-item"><!--background.jpg-->
+        <article class="section-placing-list-block placing_list_block_six">
+          <p class="section-placing-price">от<strong class="placing-info"> 6 490 р /</strong> ночь<span class="section-pacing-rating-item">
+          <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 4 из 5">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star.png" alt="звезда">
+          <img class="section-placing-rating" src="img/star-empty.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona el retorno</h3>
+        <p class="section-placing-subtitle">Барселона, Испания</p>
+        <button class="section-placing-list-button placing_button_text">Номера</button>
+        </article>
+      </li>
+
+        <li class="section-placing-list-item"><!--background.jpg-->
+        <article class="section-placing-list-block placing_list_block_seven">
+          <p class="section-placing-price">от<strong class="placing-info"> 6 505 р /</strong> ночь<span class="section-pacing-rating-item">
+            <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 4 из 5">
+            <img class="section-placing-rating" src="img/star.png" alt="звезда">
+            <img class="section-placing-rating" src="img/star.png" alt="звезда">
+            <img class="section-placing-rating" src="img/star.png" alt="звезда">
+            <img class="section-placing-rating" src="img/star-empty.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona enfermo terminó</h3>
+        <p class="section-placing-subtitle">Барселона, Испания</p>
+        <button class="section-placing-list-button placing_button_text">Номера</button>
+        </article>
+      </li>
+
+        <li class="section-placing-list-item"> <!--background.jpg-->
+        <article class="section-placing-list-block placing_list_block_eight">
+          <p class="section-placing-price">от<strong class="placing-info"> 6 824 р /</strong> ночь<span class="section-pacing-rating-item">
+            <img class="section-placing-rating" src="img/star.png" alt="Рейтинг отеля 4 из 5">
+            <img class="section-placing-rating" src="img/star.png" alt="звезда">
+            <img class="section-placing-rating" src="img/star.png" alt="звезда">
+            <img class="section-placing-rating" src="img/star.png" alt="звезда">
+            <img class="section-placing-rating" src="img/star-empty.png" alt="звезда"></span></p>
+        <h3 class="section-placing-title2">Lagoona suerte siguió siempre</h3>
+        <p class="section-placing-subtitle">Барселона, Испания</p>
+
+        <button class="section-placing-list-button placing_button_text">Номера</button>
+      </article>
+      </li>
+
+        <li class="section-placing-list-item"><!--background.jpg-->
+          <div class="section-placing-list-block placing_list_last_block">
+          <a href="#" class="section-placing-list-more placing_list_more_arrow">
+              Посмотреть все варианты
+          </a>
+        </div>
+        </li>
+      </ul>
+      </div>
+      </section>
+
+  <div class="container flex">
+  <section class="section-contacts">
+
+      <h2 class="section-contacts-title">Контакты</h2>
+      <div class="body-style">
+        <div class="section-contcts-block contaxts_body_style">
+        <div class="section-contacts-adrees_item">
+          <h3 class="section-contacts-description">Адрес</h3>
+            <div class="section-contacts-text">Москва, улица Юности, дом 5 строение 4, офис 2</div>
+        </div>
+        <div class="section-contacts-item contacts_item">
+          <h3 class="section-contacts-description">Телефоны</h3>
+          <div class="contacts-tel">
+            <a href="tel:+74995356434" class="section-contacts-item-tel">+7 (499) 535-64-34</a>
+            <a href="tel:+74950050544" class="section-contacts-item-tel">+7 (495) 005-05-44</a>
+          </div>
+          </div>
+
+          <div class="section-contacts-item email-item">
+            <h3 class="section-contacts-description">E-mail</h3>
+            <div class="section-contacts-mail">
+              <a href="mailto:lg.oona@mail.ru" class="section-contacts-mail-link">lg.oona@mail.ru</a>
+                <span class="section-contacts-text-style">по вопросам бронирования</span>
+              <a href="mailto:hotels.ln@mail.ru" class="section-contacts-mail-link">hotels.ln@mail.ru</a>
+                <span class="section-contacts-text-style">по вопросам сотрудничества</span>
+            </div>
+          </div>
+          <div class="section-contacts-item">
+            <h3 class="section-contacts-description">График</h3>
+          <div class="section-contacts-text">Понедельник - пятница, с 10:00 до 19:00</div>
+        </div>
+
+      <a class="section-contacts-description-btn contacts_description_text" href="#">построить маршрут</a>
+      </div>
+    </div>
+  </section>
+  <section class="section-contacts-write">
+    <div class="section-contacts-list-block-two">
+      <h2 class="section-contacts-write-question">Остались вопросы?</h2>
+
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="contacts-list-block">
+          <input required type="text" name="name" placeholder="имя" class="section-contacts-write-to-name" id="name">
+          <input type="tel" name="phone" placeholder="+7" class="section-contacts-write-to-name">
+
+          <textarea name="text" placeholder="сообщение" class="section-contacts-write-to-us" id="massage"></textarea>
+          <p class="contacts-warning">Отправляя свои данные вы соглашаетесь с <a href="#" class="contacts-warnig-privacy">Политикой конфиденциальности</a></p>
+          <button class="section-contacts-write-to-btn write_to_text">отправить</button>
+        </form>
+        </div>
+      </section>
+
+    </div>
+  </main>
 
     <footer>
-        <div class="container container__footer">
-            <div class="footer__block">
-                <img src="img/logo-2.png" alt="logo" class="logo">
-                <div class="background-logo"></div>
-
-                <ul class="footer__block-one ">
-                    <li class="footer__list-style"><a href="#" class="footer__text-color">О нас</a></li>
-                    <li class="footer__list-style"><a href="#" class="footer__text-color">Проекты</a></li>
-                    <li class="footer__list-style"><a href="#" class="footer__text-color">Отзывы</a></li>
-                    <li class="footer__list-style"><a href="#" class="footer__text-color">Договор оферты</a></li>
-                    <li class="footer__list-style"><a href="#" class="footer__text-color">Договор подряда</a></li>
-                    <li class="footer__list-style"><a href="#" class="footer__text-color">Конфиденциальность</a></li>
-                    <li class="footer__list-style"><a href="#" class="footer__text-color">Партнёрское соглашение</a></li>
-                </ul>
-
-                <ul class="footer__block-icon">
-                    <li class="footer__icon">
-                        <a href="#" class="icon one" aria-label="instagram"></a>
-                    </li>
-                    <li class="footer__icon">
-                        <a href="#" class="icon two"></a>
-                    </li>
-                    <li class="footer__icon">
-                        <a href="#" class="icon three"></a>
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="footer__block-two">
-                <h3 class="section-contacts-write-question">Оставить заявку</h3>
-
-                <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="footer__list-block-form">
-
-                    <input required type="text" name="name" placeholder="Фамилия, имя и отчество*" class="footer__block-two-name" id="name">
-                    <input type="tel" name="email" placeholder="E-mail*" class="footer__block-two-mail">
-
-                    <textarea name="text" placeholder="сообщение" class="footer__block-two-massage" id="massage"></textarea>
-                    <div class="footer__block-agreement">
-                        <button aria-label="Отправить данные" class="footer__button button-style">Отправить данные</button>
-                        <p class="footer__agreement footer__agreement-style">
-
-                            <label id="chk" class="footer__text-style" checked><span class="footer__text-style">Согласен на обработку данных</span>
-                <input class="checkbox__style" id="ckh" type="checkbox">
-                <span></span>
-            </label>
-                        </p>
-                    </div>
-                </form>
-            </div>
-
-            <ul class="footer__block-three">
-                <li class="footer__block-list">
-                    <p class="footer__block-three-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация
-                        с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов. </p>
+          <div class="container footer">
+            <ul class="footer-block-one">
+              <li class="footer-description">
+                © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс
+              </li>
+              <li class="footer-description">
+                Представленная на сайте информация носит справочный характер и не является публичной офёртой
+              </li>
+              <li class="footer-description-link">
+                <a href="#" class="footer-description-link-style">Пользовательское соглашение</a>
+              </li>
+            </ul>
+            <ul class="footer-block-two">
+              <li class="footer-adress">
+                <p class="footer-adrees-style">11710, улица Юности, дом 5 строение 4, офис 2</p>
+                <li class="footer-number-block">
+                  <a href="tel:+74995356434" class="footer-number-style">+7 (499) 535-64-34</a>
+                  <a href="tel:+74950050544" class="footer-number-style">+7 (499) 005-64-44</a>
                 </li>
+              </li>
+              <li class="footer-mail-block">
+                <a href="mailto:lg.oona@mail.ru" class="section-footer-mail">lg.oona@mail.ru</a>
+                <a href="mailto:hotels.ln@mail.ru" class="section-footer-mail">hotels.ln@mail.ru</a>
+              </li>
+
             </ul>
 
-        </div>
+              <ul class="footer-block-three">
+                  <li class="icon">
+                    <a href="#" class="icon one"></a>
+                  </li>
+                  <li class="icon">
+                    <a href="#" class="icon two"></a>
+                    </li>
+                <li class="icon">
+                  <a href="#" class="icon three"></a>
+                </li>
+                <li class="icon">
+                  <a href="#" class="icon four"></a>
+                </li>
+                <li class="icon">
+                  <a href="#" class="icon five"></a>
+                </li>
+
+
+              </ul>
+
+          </div>
+
+
     </footer>
-
-
-    <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
